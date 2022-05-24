@@ -1,0 +1,3 @@
+Bundle-Name: login-portlet-action
+Bundle-SymbolicName: com.liferay.hooks.portlet.action
+Bundle-Version: 1.0.0
