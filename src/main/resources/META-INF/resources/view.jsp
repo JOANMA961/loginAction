@@ -1,5 +1,7 @@
 <%@ include file="/init.jsp" %>
 
-<p>
-	<b><liferay-ui:message key="customloginaction.caption"/></b>
-</p>
+<portlet:renderURL var="editEntryURL">
+	<portlet:param name="mvcRenderCommandName" value="/view" />
+</portlet:renderURL>
+
+<p>Bienvenido! <%= request.getAttribute("loginScreen") %></p>
